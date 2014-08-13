@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80427DEF199BFD52004CF17D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80427DEE199BFD52004CF17D /* Foundation.framework */; };
+		80427DF4199BFD52004CF17D /* HelloLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80427DF3199BFD52004CF17D /* HelloLibrary.h */; };
+		80427DF6199BFD52004CF17D /* HelloLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 80427DF5199BFD52004CF17D /* HelloLibrary.m */; };
+		80427DFD199BFD52004CF17D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80427DFC199BFD52004CF17D /* XCTest.framework */; };
+		80427DFE199BFD52004CF17D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80427DEE199BFD52004CF17D /* Foundation.framework */; };
+		80427E00199BFD52004CF17D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80427DFF199BFD52004CF17D /* UIKit.framework */; };
+		80427E03199BFD52004CF17D /* libHelloLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80427DEB199BFD52004CF17D /* libHelloLibrary.a */; };
+		80427E09199BFD52004CF17D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80427E07199BFD52004CF17D /* InfoPlist.strings */; };
+		80427E0B199BFD52004CF17D /* HelloLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80427E0A199BFD52004CF17D /* HelloLibraryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80427E01199BFD52004CF17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80427DE3199BFD52004CF17D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80427DEA199BFD52004CF17D;
+			remoteInfo = HelloLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80427DE9199BFD52004CF17D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				80427DF4199BFD52004CF17D /* HelloLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		80427DEB199BFD52004CF17D /* libHelloLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHelloLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		80427DEE199BFD52004CF17D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80427DF2199BFD52004CF17D /* HelloLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		80427DF3199BFD52004CF17D /* HelloLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloLibrary.h; sourceTree = "<group>"; };
+		80427DF5199BFD52004CF17D /* HelloLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLibrary.m; sourceTree = "<group>"; };
+		80427DFB199BFD52004CF17D /* HelloLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80427DFC199BFD52004CF17D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		80427DFF199BFD52004CF17D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		80427E06199BFD52004CF17D /* HelloLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		80427E08199BFD52004CF17D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80427E0A199BFD52004CF17D /* HelloLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLibraryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80427DE8199BFD52004CF17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80427DEF199BFD52004CF17D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80427DF8199BFD52004CF17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80427E03199BFD52004CF17D /* libHelloLibrary.a in Frameworks */,
+				80427DFD199BFD52004CF17D /* XCTest.framework in Frameworks */,
+				80427E00199BFD52004CF17D /* UIKit.framework in Frameworks */,
+				80427DFE199BFD52004CF17D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80427DE2199BFD52004CF17D = {
+			isa = PBXGroup;
+			children = (
+				80427DF0199BFD52004CF17D /* HelloLibrary */,
+				80427E04199BFD52004CF17D /* HelloLibraryTests */,
+				80427DED199BFD52004CF17D /* Frameworks */,
+				80427DEC199BFD52004CF17D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80427DEC199BFD52004CF17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80427DEB199BFD52004CF17D /* libHelloLibrary.a */,
+				80427DFB199BFD52004CF17D /* HelloLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80427DED199BFD52004CF17D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80427DEE199BFD52004CF17D /* Foundation.framework */,
+				80427DFC199BFD52004CF17D /* XCTest.framework */,
+				80427DFF199BFD52004CF17D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80427DF0199BFD52004CF17D /* HelloLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				80427DF3199BFD52004CF17D /* HelloLibrary.h */,
+				80427DF5199BFD52004CF17D /* HelloLibrary.m */,
+				80427DF1199BFD52004CF17D /* Supporting Files */,
+			);
+			path = HelloLibrary;
+			sourceTree = "<group>";
+		};
+		80427DF1199BFD52004CF17D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80427DF2199BFD52004CF17D /* HelloLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80427E04199BFD52004CF17D /* HelloLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				80427E0A199BFD52004CF17D /* HelloLibraryTests.m */,
+				80427E05199BFD52004CF17D /* Supporting Files */,
+			);
+			path = HelloLibraryTests;
+			sourceTree = "<group>";
+		};
+		80427E05199BFD52004CF17D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80427E06199BFD52004CF17D /* HelloLibraryTests-Info.plist */,
+				80427E07199BFD52004CF17D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80427DEA199BFD52004CF17D /* HelloLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80427E0E199BFD52004CF17D /* Build configuration list for PBXNativeTarget "HelloLibrary" */;
+			buildPhases = (
+				80427DE7199BFD52004CF17D /* Sources */,
+				80427DE8199BFD52004CF17D /* Frameworks */,
+				80427DE9199BFD52004CF17D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloLibrary;
+			productName = HelloLibrary;
+			productReference = 80427DEB199BFD52004CF17D /* libHelloLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		80427DFA199BFD52004CF17D /* HelloLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80427E11199BFD52004CF17D /* Build configuration list for PBXNativeTarget "HelloLibraryTests" */;
+			buildPhases = (
+				80427DF7199BFD52004CF17D /* Sources */,
+				80427DF8199BFD52004CF17D /* Frameworks */,
+				80427DF9199BFD52004CF17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80427E02199BFD52004CF17D /* PBXTargetDependency */,
+			);
+			name = HelloLibraryTests;
+			productName = HelloLibraryTests;
+			productReference = 80427DFB199BFD52004CF17D /* HelloLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80427DE3199BFD52004CF17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Brian;
+			};
+			buildConfigurationList = 80427DE6199BFD52004CF17D /* Build configuration list for PBXProject "HelloLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80427DE2199BFD52004CF17D;
+			productRefGroup = 80427DEC199BFD52004CF17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80427DEA199BFD52004CF17D /* HelloLibrary */,
+				80427DFA199BFD52004CF17D /* HelloLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80427DF9199BFD52004CF17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80427E09199BFD52004CF17D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80427DE7199BFD52004CF17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80427DF6199BFD52004CF17D /* HelloLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80427DF7199BFD52004CF17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80427E0B199BFD52004CF17D /* HelloLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80427E02199BFD52004CF17D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80427DEA199BFD52004CF17D /* HelloLibrary */;
+			targetProxy = 80427E01199BFD52004CF17D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80427E07199BFD52004CF17D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80427E08199BFD52004CF17D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80427E0C199BFD52004CF17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80427E0D199BFD52004CF17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80427E0F199BFD52004CF17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HelloLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloLibrary/HelloLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		80427E10199BFD52004CF17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HelloLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloLibrary/HelloLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		80427E12199BFD52004CF17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloLibrary/HelloLibrary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloLibraryTests/HelloLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		80427E13199BFD52004CF17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloLibrary/HelloLibrary-Prefix.pch";
+				INFOPLIST_FILE = "HelloLibraryTests/HelloLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80427DE6199BFD52004CF17D /* Build configuration list for PBXProject "HelloLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80427E0C199BFD52004CF17D /* Debug */,
+				80427E0D199BFD52004CF17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80427E0E199BFD52004CF17D /* Build configuration list for PBXNativeTarget "HelloLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80427E0F199BFD52004CF17D /* Debug */,
+				80427E10199BFD52004CF17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80427E11199BFD52004CF17D /* Build configuration list for PBXNativeTarget "HelloLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80427E12199BFD52004CF17D /* Debug */,
+				80427E13199BFD52004CF17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80427DE3199BFD52004CF17D /* Project object */;
+}

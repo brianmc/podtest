@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloLibraryTests/HelloLibraryTests.m"
+            timestampString = "429655459.831374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-numberPleaseShouldReturnNumber"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HelloLibraryTests testNumberPleaseShouldReturnNumber]"
+                  moduleName = "HelloLibraryTests"
+                  urlString = "file:///Users/anetdeveloper/Code/ios-samples/HelloLibrary/HelloLibraryTests/HelloLibraryTests.m"
+                  timestampString = "429655512.466585"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HelloLibraryTests testNumberPleaseShouldReturnNumber]"
+                  moduleName = "HelloLibraryTests"
+                  urlString = "file:///Users/anetdeveloper/Code/ios-samples/HelloLibrary/HelloLibraryTests/HelloLibraryTests.m"
+                  timestampString = "429655512.467137"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HelloLibraryTests testNumberPleaseShouldReturnNumber]"
+                  moduleName = "HelloLibraryTests"
+                  urlString = "file:///Users/anetdeveloper/Code/ios-samples/HelloLibrary/HelloLibraryTests/HelloLibraryTests.m"
+                  timestampString = "429655512.467384"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HelloLibraryTests testNumberPleaseShouldReturnNumber]"
+                  moduleName = "HelloLibraryTests"
+                  urlString = "file:///Users/anetdeveloper/Code/ios-samples/HelloLibrary/HelloLibraryTests/HelloLibraryTests.m"
+                  timestampString = "429655512.467606"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "819">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HelloLibraryTests testNumberPleaseShouldReturnNumber]"
+                  moduleName = "HelloLibraryTests"
+                  urlString = "file:///Users/anetdeveloper/Code/ios-samples/HelloLibrary/HelloLibraryTests/HelloLibraryTests.m"
+                  timestampString = "429655512.467821"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
