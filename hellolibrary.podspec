@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "helloworld"
+  s.name             = "hellolibrary"
   s.version          = "0.0.1"
   s.summary          = "A simple helloworld library to try out cocoapods"
   s.description      = <<-DESC
@@ -24,8 +24,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/'
-  s.resources = 'Pod/Assets/'
+  s.source_files = 'HelloLibrary/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
